@@ -19,7 +19,7 @@ body {
   height: 30rem;
   text-align: center;
   background-color: #f4cfe4;
-  /* opacity: 0.8; */
+  opacity: 0.8;
   border: 3px solid #df8dc5;
   border-radius: 15rem;
 }
@@ -50,6 +50,38 @@ body {
   margin-right: 6px;
   color: #6f4f28;
   margin-bottom: 0.5rem;
+}
+
+@media (max-width: 575px) {
+  .wrap {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 10rem;
+  }
+  
+  .weather-box div {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .weather-box h3 {
+    margin-bottom: 8px;
+  }
+  
+  .weather-box h5 {
+    margin-bottom: 0;
+  }
+  
+  .weather-button {
+    margin-top: 12px;
+    padding: 0 1rem;
+  }
+  
+  .weather-button button {
+    font-size: 12px;
+    margin-right: 4px;
+    margin-bottom: 0.3rem;
+  }
 }
 
 
